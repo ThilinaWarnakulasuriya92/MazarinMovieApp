@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/addmovie_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Add Movie"
+        android:textColor="#4b38c4"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/txtmoviename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Movie Name"
+        android:textSize="10sp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtmovieyear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#4b38c4"
+        android:textSize="10sp"
+        android:focusable="false"
+        android:hint="Movie Year"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btndatepicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b38c4"
+        android:padding="2dp"
+        android:paddingLeft="20dp"
+        android:text="Pick Date"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtmovieGenre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Genre"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtmovieCast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Cast Members"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtmovieScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Score"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:inputType="number" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieSubmit"
+        android:background="#4b38c4"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieSubmitBack"
+        android:background="#4b38c4"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>
